@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+   <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey form</p>
+          <form id="survey-form">
+            <div class="from-group">
+              <label id="name-label" for="name">Name:</label><input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required></div>
+<div class="form-group"><label id="email-label" for="email">Email:</label><input type="email"  name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+<div class="form-group"><label id="number-label" for="number">Number</label><input type="number" name="number" id="number" min="10" max="99" class="form-control" placeholder="Number"></div>
+<div class="form-group"><label for="dropdown">Choose an option:</label><select id="dropdown" name="dropdown"><option value="option 1"</option><option value="option 2"</option></select>
+<label><input type="radio" name="subs" value="first">first</label>
+<label><input type="radio" name="subs" value="second">second</label>
+<p>Choose your interests:</p>
+        <label>
+            <input type="checkbox" name="interests" value="coding"> Coding
+        </label>
+        <label>
+            <input type="checkbox" name="interests" value="design"> Design
+        </label>
+<label for="comments">Additional Comments:</label><textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+<button type="submit" id="submit">Submit</button>
+</form></body></html>
